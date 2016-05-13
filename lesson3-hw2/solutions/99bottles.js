@@ -29,7 +29,7 @@ for (beers = 99; beers >= 0; beers--) {
 
 // Solution 2:
 
-function bottleWords(n) {
+function bottlePhrase(n) {
     if (n > 1) {
         return n + " bottles";
     } else if (n === 1) {
@@ -40,10 +40,10 @@ function bottleWords(n) {
 }
 
 for (beers = 99; beers >= 1; beers--) {
-    console.log(bottleWords(beers) + " of beer on the wall, " + 
-                bottleWords(beers) + " of beer.\n" +
+    console.log(bottlePhrase(beers) + " of beer on the wall, " + 
+                bottlePhrase(beers) + " of beer.\n" +
                 "Take one down and pass it around, " + 
-                bottleWords(beers - 1) + " of beer on the wall.");
+                bottlePhrase(beers - 1) + " of beer on the wall.");
 }
 
 console.log("No more bottles of beer on the wall, " + 
