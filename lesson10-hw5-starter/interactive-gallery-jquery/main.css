@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+h1 {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	margin-bottom: 30px;
+	width: 300px;
+}
+
+.painting {
+	display: inline-block;
+	position: relative;
+	margin: 0 10px;
+	width: 225px;
+	height: 300px;
+	background-position:center;
+	background-size: cover;
+}
+
+.pink-span {
+	position: absolute;
+	display: block;
+	left: 5px;
+	top: 5px;
+	color: white;
+}
+
+.blue { background-image: url('img/blue.jpg'); }
+
+.yellow { background-image: url('img/yellow.jpg'); }
+
+.grey { background-image: url('img/grey.jpg'); }
+
+.pink { background-image: url('img/pink.jpg'); }
