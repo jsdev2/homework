@@ -33,6 +33,17 @@ for (var i = 0; i < fruits.length; i++) {
 // 3. Fix this problem, using the .forEach method
 //    instead of a for loop.
 
+// Note: You will need to know something we might not have taught yet
+//       about the .forEach function, which is that the callback takes
+//       another argument: the index itself. So
+
+//       ["a", "b" "c"].forEach(function(item, index) {
+//         console.log(item + " has index " + index);
+//       });
+//       // => a has index 0
+//       // => b has index 1
+//       // => c has index 2
+
 // 4. Why does your fix work?
 
 // BONUS: Look up "Immediately Invoked Function Expressions"
